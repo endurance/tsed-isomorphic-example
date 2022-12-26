@@ -17,15 +17,15 @@ module.exports = {
         },
     },
     resolve: {
-        fallback: {
-            "path": require.resolve("path-browserify"),
-            "constants": require.resolve("constants-browserify"),
-            "stream": require.resolve("readable-stream"),
-            "buffer": require.resolve("buffer/"),
-            "assert": require.resolve("assert-browserify"),
-            "fs": require.resolve("browserify-fs"),
-            "util": require.resolve("util/"),
-        },
+        // fallback: {
+        //     "path": require.resolve("path-browserify"),
+        //     "constants": require.resolve("constants-browserify"),
+        //     "stream": require.resolve("readable-stream"),
+        //     "buffer": require.resolve("buffer/"),
+        //     "assert": require.resolve("assert-browserify"),
+        //     "fs": require.resolve("browserify-fs"),
+        //     "util": require.resolve("util/"),
+        // },
         extensions: ['.tsx', '.ts', '.js'],
     },
     module: {

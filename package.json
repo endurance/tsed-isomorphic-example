@@ -8,8 +8,8 @@
     "start": "webpack serve --port 3030"
   },
   "dependencies": {
-    "@tsed/core": "^7.9.0",
-    "@tsed/schema": "^7.9.0",
+    "@tsed/core": "^7.10.0-rc.1",
+    "@tsed/schema": "^7.10.0-rc.1",
     "assert-browserify": "^2.0.0",
     "browserify-fs": "^1.0.0",
     "buffer": "^6.0.3",

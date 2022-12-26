@@ -52,26 +52,25 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@tsed/core@^7.9.0":
-  version "7.9.0"
-  resolved "https://registry.yarnpkg.com/@tsed/core/-/core-7.9.0.tgz#934ca120784ba294841b517677627e6c8a259767"
-  integrity sha512-QxhkTNRspuEMkhrHAUzXt8ieAdgw8O+MZqxjpoq6VaG8C0+mT2qxNoT7dY8y+fHLJSAkvNz4JBCHaHdisFCXHQ==
+"@tsed/core@^7.10.0-rc.1":
+  version "7.10.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@tsed/core/-/core-7.10.0-rc.1.tgz#4e3b6f45c3ec7314f5450c6f1333ea0a5e79e212"
+  integrity sha512-96ZVaS3oZUUGZCaGQL4/iHg3WTKWfHF9tuTdkqTLY1Nfc+ra8MGr9L46np1G1z+tlDJ+6rvkiPHtsg3/X9uF3Q==
   dependencies:
-    normalize-path "3.0.0"
     reflect-metadata "^0.1.13"
     tslib "2.4.0"
 
-"@tsed/openspec@7.9.0":
-  version "7.9.0"
-  resolved "https://registry.yarnpkg.com/@tsed/openspec/-/openspec-7.9.0.tgz#b73787b0ec4c285df62c903626254ebad26808ab"
-  integrity sha512-CemhDNrhiVSypp1sduk+4olvB9u4e3mKbst/jOeWW2KE4eb8DdfEB0oVbvVEzZfsVxwOQCJvbsZodH8YRKUsXw==
+"@tsed/openspec@7.10.0-rc.1":
+  version "7.10.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@tsed/openspec/-/openspec-7.10.0-rc.1.tgz#e6baf824dc5d7fcd118a818edf1d8c9f65c476dd"
+  integrity sha512-OgKq5rRvNDdLGTrOuQupEfLS4x+oY6WmNsvdcGLhixqLkKigYmyOXGlhYQ6NvLmr/uFBElzdrxRSXL0z93ZaRw==
 
-"@tsed/schema@^7.9.0":
-  version "7.9.0"
-  resolved "https://registry.yarnpkg.com/@tsed/schema/-/schema-7.9.0.tgz#eb0e4c1c8a9f2c1a259d98cf800b094e6e7c9da8"
-  integrity sha512-w+vY2JbbYclIaxP8M5SVfXEsA/FQiTcjBE27AWj915bpKm4oLdoFj6M0hTHJeR0jiKJhCinWBCTd2jUcm/nTmg==
+"@tsed/schema@^7.10.0-rc.1":
+  version "7.10.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@tsed/schema/-/schema-7.10.0-rc.1.tgz#b3af814b1e9772f1f9e7cd669ff283788ae4c654"
+  integrity sha512-gFxDz4dwVAeo+39rJxHjwyN9xMHGwt7EEFDu0cP2uNcmsxLBQXWwVmGJZhpkHihGG0rRbAxGuYoS9w/4egdvgA==
   dependencies:
-    "@tsed/openspec" "7.9.0"
+    "@tsed/openspec" "7.10.0-rc.1"
     change-case "^4.1.2"
     fs-extra "^10.0.1"
     json-schema "0.4.0"
@@ -1917,7 +1916,7 @@ node-releases@^2.0.6:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.8.tgz#0f349cdc8fcfa39a92ac0be9bc48b7706292b9ae"
   integrity sha512-dFSmB8fFHEH/s81Xi+Y/15DQY6VHW81nXRj86EMSL3lmuTmK1e+aT4wrFCkTbm+gSwkw4KpX+rT/pMM2c1mF+A==
 
-normalize-path@3.0.0, normalize-path@^3.0.0, normalize-path@~3.0.0:
+normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
