@@ -1,4 +1,3 @@
-import './polyfills'
 import { Property, getJsonSchema } from "@tsed/schema";
 
 export class Type1 {
